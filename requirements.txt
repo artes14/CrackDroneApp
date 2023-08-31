@@ -16,6 +16,10 @@ tqdm>=4.41.0
 wandb
 
 # plotting ------------------------------------
+PyQt5==5.15.6
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.9.1
+pyqtgraph==0.11.1
 #seaborn>=0.11.0
 #pandas
 
@@ -27,3 +31,18 @@ wandb
 # extras --------------------------------------
 #thop  # FLOPS computation
 pycocotools>=2.0  # COCO mAP
+glob2==0.6
+pathlib2==2.3.2
+wget==3.2
+
+# Google Photos API
+google-api-core==2.8.2
+google-api-python-client==2.52.0
+google-auth==2.16.2
+google-auth-httplib2==0.1.0
+google-auth-oauthlib==0.4.2
+google-pasta==0.2.0
+googleapis-common-protos==1.56.3
+html5lib==1.0.1
+httplib2==0.21.0
+oauth2client==4.1.3

@@ -23,7 +23,7 @@ def crop_image(img, crop_size:int):
     if crop_size>=w or crop_size>=h:
         return img, 1, 1
     crop_image=[]
-    dx, dy = (w/crop_size).__floor__(), (h/crop_size).__floor__()
+    dx, dy = int(np.floor(w/crop_size)), int(np.floor(h/crop_size))
     for x in range(0, w - crop_size, crop_size):
         for y in range(0, h - crop_size, crop_size):
             crop_image.append(img[x:x + crop_size, y:y + crop_size])

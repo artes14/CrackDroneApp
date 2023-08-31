@@ -4,10 +4,10 @@ import Crack
 import cv2
 import numpy as np
 import colorsys
-import os
-from scipy.stats import sem
-import imgmod
-from numpy import linalg
+# import os
+# from scipy.stats import sem
+# import imgmod
+# from numpy import linalg
 import time
 
 

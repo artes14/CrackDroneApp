@@ -8,7 +8,7 @@ import math
 import imgmod
 from numpy import linalg
 import time
-from skimage.draw import line
+# from skimage.draw import line
 
 class Crack:
     def __init__(self,img, angle_w=72, angle_h=60, gray=True, mask_eval=None, mask_bitand=None):
